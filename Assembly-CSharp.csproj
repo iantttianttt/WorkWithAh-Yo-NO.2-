@@ -47,7 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Script\03_MiniGame\GameManager.cs" />
      <Compile Include="Assets\Script\03_MiniGame\MonsterAI.cs" />
-     <Compile Include="Assets\Script\03_MiniGame\MonsterCreator.cs" />
+     <Compile Include="Assets\Script\03_MiniGame\MonsterCreator_BossMotion.cs" />
      <Compile Include="Assets\Script\03_MiniGame\PlayerController.cs" />
      <Compile Include="Assets\Script\03_MiniGame\PlayerInterface.cs" />
      <Compile Include="Assets\Script\LevelLoadingSystem\GameSceneManager.cs" />
@@ -55,6 +55,7 @@
      <Compile Include="Assets\Script\LevelLoadingSystem\SceneInitializer.cs" />
      <Compile Include="Assets\Script\LevelLoadingSystem\SceneLoader.cs" />
      <Compile Include="Assets\Script\LevelLoadingSystem\SceneNameList.cs" />
+     <Compile Include="Assets\Script\ObjectPool\ObjectPool.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Unity5.3.3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
